@@ -1,0 +1,38 @@
+{
+  "source": "expert_prior",
+  "description": "Expert-prior calibration profile for cybersecurity event generation",
+  "hour_histogram": {
+    "0": 0.005, "1": 0.004, "2": 0.003, "3": 0.003, "4": 0.004,
+    "5": 0.008, "6": 0.015, "7": 0.030, "8": 0.075, "9": 0.090,
+    "10": 0.085, "11": 0.082, "12": 0.070, "13": 0.078, "14": 0.085,
+    "15": 0.085, "16": 0.080, "17": 0.065, "18": 0.045, "19": 0.030,
+    "20": 0.020, "21": 0.015, "22": 0.012, "23": 0.008
+  },
+  "failure_rate": 0.035,
+  "events_per_day_mean": 8.0,
+  "events_per_day_std": 3.5,
+  "home_country_rate": 0.90,
+  "own_device_rate": 0.95,
+  "category_frequencies": {
+    "auth_method": {
+      "password": 0.55,
+      "mfa": 0.25,
+      "sso": 0.12,
+      "certificate": 0.05,
+      "token": 0.03
+    },
+    "privilege_level": {
+      "standard": 0.70,
+      "elevated": 0.18,
+      "admin": 0.10,
+      "superadmin": 0.02
+    },
+    "os": {
+      "Windows 11": 0.40,
+      "Windows 10": 0.25,
+      "Ubuntu 22.04": 0.15,
+      "macOS 14": 0.15,
+      "RHEL 9": 0.05
+    }
+  }
+}
