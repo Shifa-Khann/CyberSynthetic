@@ -1,0 +1,12 @@
+.venv
+.git
+.pytest_cache
+outputs/*
+!outputs/.gitkeep
+cache/*
+!cache/.gitkeep
+*.sqlite
+.DS_Store
+tests/
+.agent/
+.claude/
