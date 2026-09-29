@@ -1,0 +1,10 @@
+flask>=3.0
+pandas>=2.2
+numpy>=1.26
+pydantic>=2.6
+faker>=24.0
+reportlab>=4.1
+arabic-reshaper>=3.0
+python-bidi>=0.4.2
+sqlglot>=23.0
+python-dotenv>=1.0
