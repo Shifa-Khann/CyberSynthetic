@@ -5,18 +5,6 @@ Enterprise Synthetic Data Platform for HackDataV2.
 import streamlit as st
 from dotenv import load_dotenv
 from engine.ui_styles import inject_css, sidebar_nav
-from flask import Flask, jsonify
-
-# Top-level WSGI handler export for Vercel deployment inspection compatibility
-app = Flask(__name__)
-
-@app.route("/api/status", methods=["GET"])
-def vercel_status():
-    return jsonify({
-        "status": "online",
-        "platform": "CyberSynthetic Platform",
-        "message": "Streamlit app active."
-    })
 
 load_dotenv()
 
